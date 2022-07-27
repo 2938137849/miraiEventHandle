@@ -72,7 +72,7 @@ tasks.create("build2Jar") {
 		(File("${buildDir}/mirai/").listFiles() ?: emptyArray()).forEach {
 			val name = it.name
 			println("Copy File: $name to plugins/$name ")
-			it.copyTo(File(pluginPath + name))
+			it.copyTo(File(pluginPath + name), true)
 		}
 	}
 }
