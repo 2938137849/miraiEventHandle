@@ -22,7 +22,7 @@ object EventHandleTest {
 	}
 
 	private const val preheatCount = 1_000
-	private const val execCount = 1_000_000_00
+	private const val execCount = 1_000_000
 
 	@JvmStatic
 	fun main(args: Array<String>) {
