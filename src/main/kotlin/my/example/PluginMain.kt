@@ -14,7 +14,7 @@ import net.mamoe.mirai.console.plugin.jvm.KotlinPlugin
  */
 object PluginMain : KotlinPlugin(
 	JvmPluginDescription(
-		id = "my.ktbot.binbot",
+		id = "my.example",
 		version = "0.1"
 	) {
 		author("bin.qq=2938137849")
